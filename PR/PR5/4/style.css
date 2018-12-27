@@ -1,0 +1,6 @@
+.main + p {
+	color: red;
+}
+.main ~ p {
+	background-color: blue;
+}
