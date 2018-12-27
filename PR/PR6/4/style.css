@@ -1,0 +1,9 @@
+p {
+	text-transform: capitalize;
+}
+.span1  {
+	text-decoration: underline line-through overline ;
+}
+.span2  {
+	text-decoration: underline line-through overline ;
+}
