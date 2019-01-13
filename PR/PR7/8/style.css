@@ -1,0 +1,28 @@
+.red {
+	background-color: red;
+	height: 50px;
+	width: 50px;
+}
+.blue {
+	background-color: blue;
+	height: 50px;
+	width: 50px;
+}
+.bluebegin {
+	border-radius: 20px 20px 0 0;
+}
+.blueend {
+	border-radius: 0 0 20px 20px;
+}
+.redlefttop {
+	border-radius: 20px 0 0 0;
+}
+.redendbegin {
+	border-radius: 0 20px 20px 0;
+}
+.redleftbottom {
+	border-radius: 0 0 0 20px;
+}
+.circle {
+	border-radius: 20px;
+}

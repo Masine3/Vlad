@@ -1,0 +1,40 @@
+#il1 {
+	background-color: red;
+	width: 90%;
+	margin-left: 0;
+}
+#il2 {
+	background-color: yellow;
+	width: 80%;
+	margin-left: 5%;
+}
+#il3 {
+	background-color: lime;
+	width: 70%;
+	margin-left: 10%;
+}
+#il4 {
+	background-color: aqua;
+	width: 60%;
+	margin-left: 15%;
+}
+#il5 {
+	background-color: blue;
+	width: 50%;
+	margin-left: 20%;
+}
+#il6 {
+	background-color: fuchsia;
+	width: 40%;
+	margin-left: 25%;
+}
+ul {
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 400px;
+	list-style: none;
+}
+.li {
+	margin: 0 auto;
+}
