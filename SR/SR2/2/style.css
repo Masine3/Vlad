@@ -1,0 +1,31 @@
+body {
+	background-color: grey;
+	overflow: scroll;
+	overflow-y: hidden;
+}
+div {
+	background-color: white;
+	width: 80%;
+	margin-left: 10%;
+}
+nav {
+	background-color: silver;
+	float: left;
+	border-radius: 20px;
+}
+h1 {
+	margin-left: 475px;
+	margin-top: -40px;
+}
+ul {
+	list-style-type: none;
+}
+footer {
+	margin-top: 200px;
+	margin-left: 560px;
+}
+p {
+	border-radius: 20px;
+	text-indent: 1.5em;
+	text-align: justify;
+}
