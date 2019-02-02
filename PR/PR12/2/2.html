@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Выравнивание элементов</title>
+		<meta charset="utf-8" />
+		<style>
+			div {
+				padding: 5px;
+				border: 2px solid black;
+				margin: 5px;
+			}
+			.flex-container {
+				height: 400px;
+				display: flex;
+				flex-flow: column wrap;
+			}
+			.mini {
+				width: 75px;
+			}
+			.center {
+				align-self: center;
+			}
+			.right {
+				align-self: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="left mini">Flex item 1</div>
+			<div class="center mini">Flex item 2</div>
+			<br />
+			<div >Flex item 3</div>
+			<br />
+			<div class="center mini">Flex item 4</div>
+			<br />
+			<div class="right mini">Flex item 5</div>
+		</div>
+	</body>
+</html>

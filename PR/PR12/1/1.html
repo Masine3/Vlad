@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Контейнер. Направление. Несколько рядов. Порядок элементов</title>
+		<meta charset="utf-8" />
+		<style>
+			div {
+				padding: 5px;
+				border: 2px solid black;
+				margin: 5px;
+			}
+			.flex-container {
+				display: flex;
+				flex-flow: column wrap;
+				height: 130px;
+			}
+			flex-item {
+				width: 50px;
+				height: 20px;
+			}
+			.group-1 {
+				order: 1;
+			}
+			.group-2 {
+				order: 2;
+			}
+			.group-3 {
+				order: 3; 
+			}
+			.flex4 {
+				margin-top: 48px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="flex-item group-2">Flex item 1</div>
+			<div class="flex-item group-3">Flex item 2</div>
+			<div class="flex-item group-2">Flex item 3</div>
+			<div class="flex-item group-2 flex4">Flex item 4</div>
+			<div class="flex-item group-1">Flex item 5</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+div {
+	padding: 5px;
+	border: 2px solid black;
+	margin: 5px;
+}
+.flex1 {
+	width: 400px;
+}
+.flex2 {
+	width: 500px;
+}
+.flex3 {
+	width: 600px;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+.flex-item1 {
+	flex-basis: 30%;
+}
+.flex-item3 {
+	flex-basis: 30%;
+}

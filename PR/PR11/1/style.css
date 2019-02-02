@@ -1,0 +1,35 @@
+.div {
+	border: 2px solid black;
+	width: 250px;
+}
+@media (min-width: 768px) {
+	#left {
+		width: 30%;
+		float: left;
+	}
+	#center {
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+	#right {
+		width: 30%;
+		float: right;
+	}
+}
+@media (min-width: 992px) {
+	#left {
+		width: 25%;
+		float: left;
+	}
+	#center {
+		margin-left: 30%;
+		margin-right: 30%;
+		width: 40%;
+	}
+	#right {
+		width: 25%;
+		float: right;
+}
+.div{
+	width: 100%;
+}
